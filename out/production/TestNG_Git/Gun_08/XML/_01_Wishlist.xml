@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite-1">
+
+    <test  name="Test-1">
+        <parameter name="search1" value="ipod"></parameter>
+
+        <classes>
+            <class name="Gun_08._01_Wishlist"></class>
+        </classes>
+
+    </test>
+
+</suite>

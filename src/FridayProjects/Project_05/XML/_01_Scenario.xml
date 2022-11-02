@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite-1">
+
+    <test  name="Test-1">
+        <parameter name="mail" value="ogr2@gmail.com"></parameter>
+        <parameter name="password" value="hummel91"></parameter>
+        
+        <classes>
+            <class name="FridayProjects.Project_05.Steps.Prject_05_01"></class>
+        </classes>
+
+    </test>
+
+</suite>
